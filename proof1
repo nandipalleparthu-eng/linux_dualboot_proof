@@ -1,0 +1,43 @@
+                                                                                                                                    
+┌──(parthu㉿kali)-[~]
+└─$ uname -a
+lsb_release -a
+hostnamectl
+df -h
+free -h
+
+Linux kali 6.18.9+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.18.9-1kali1 (2026-02-10) x86_64 GNU/Linux
+No LSB modules are available.
+Distributor ID: Kali
+Description:    Kali GNU/Linux Rolling
+Release:        2025.4
+Codename:       kali-rolling
+ Static hostname: kali
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+      Machine ID: 817ffc2441bd438eba3bbe84cab859f6
+         Boot ID: 04b00da126514cb7a06e9caed3cb7649
+Operating System: Kali GNU/Linux Rolling          
+          Kernel: Linux 6.18.9+kali-amd64
+    Architecture: x86-64
+ Hardware Vendor: Dell Inc.
+  Hardware Model: Latitude 7490
+    Hardware SKU: 081C
+Hardware Version: A00
+Firmware Version: 1.38.0
+   Firmware Date: Tue 2024-04-02
+    Firmware Age: 1y 10month 2w 1d
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.8G     0  3.8G   0% /dev
+tmpfs           783M  1.6M  781M   1% /run
+/dev/sda2       225G   19G  195G   9% /
+tmpfs           3.9G  8.0K  3.9G   1% /dev/shm
+efivarfs        384K   75K  305K  20% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G  8.0K  3.9G   1% /tmp
+/dev/sda1       975M  304K  974M   1% /boot/efi
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           783M  4.1M  779M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       3.1Gi       3.5Gi       432Mi       1.8Gi       4.6Gi
+Swap:          7.9Gi          0B       7.9Gi
