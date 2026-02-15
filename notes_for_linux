@@ -1,0 +1,48 @@
+My Personal Learning Notes (Written by Me)
+
+## 🔹 What I Learned About Dual Boot
+Dual boot allows two operating systems to be installed on one computer. When the system starts, the GRUB bootloader lets the user choose which OS to load. I installed Ubuntu alongside Windows by shrinking the Windows partition and allocating space for Linux.
+
+Key observations:
+- Partition management is important.
+- Backup is necessary before installing.
+- GRUB is automatically configured during installation.
+
+---
+
+## 🔹 What I Learned About Linux Commands
+
+Linux is command-line oriented and very powerful. Commands are case-sensitive. I learned that:
+
+- `pwd` shows current directory path.
+- `ls -l` shows detailed file permissions.
+- `sudo` allows administrative access.
+- File permissions use read (r), write (w), execute (x).
+
+Example:
+$ ls -l
+
+-rw-r--r-- 1 user user 0 Feb 14 10:30 file.txt
+
+This means:
+Owner can read/write.
+Group can read.
+Others can read.
+
+---
+
+## 🔹 Challenges Faced
+- Initially confused about partitions.
+- Had to disable Secure Boot.
+- Needed internet to update packages.
+
+---
+
+## 🔹 Conclusion
+This exercise helped me understand:
+- Linux installation process
+- Terminal navigation
+- File and directory management
+- Basic system commands
+
+I now feel comfortable using basic Linux commands in the terminal.
