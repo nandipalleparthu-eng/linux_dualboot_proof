@@ -1,48 +1,65 @@
-My Personal Learning Notes (Written by Me)
+My Personal Learning Notes
 
-## 🔹 What I Learned About Dual Boot
-Dual boot allows two operating systems to be installed on one computer. When the system starts, the GRUB bootloader lets the user choose which OS to load. I installed Ubuntu alongside Windows by shrinking the Windows partition and allocating space for Linux.
+Name: NANDIPALLE PARTHU
 
-Key observations:
-- Partition management is important.
-- Backup is necessary before installing.
-- GRUB is automatically configured during installation.
+🔹 What I Learned About Dual Boot
 
----
+When I installed Linux, I learned that dual boot means running two operating systems on the same computer. In my case, I installed Ubuntu along with Windows. When the computer starts, the GRUB bootloader appears and allows me to choose whether I want to start Windows or Ubuntu.
 
-## 🔹 What I Learned About Linux Commands
+How I Installed It (My Experience)
 
-Linux is command-line oriented and very powerful. Commands are case-sensitive. I learned that:
+First, I backed up my important files in Windows to avoid losing data. Then I opened Disk Management in Windows and shrank the main partition to create free space for Linux. After that, I downloaded the Ubuntu ISO file from the official website and created a bootable USB using Rufus.
 
-- `pwd` shows current directory path.
-- `ls -l` shows detailed file permissions.
-- `sudo` allows administrative access.
-- File permissions use read (r), write (w), execute (x).
+Next, I restarted my computer and booted from the USB drive. During the installation process, I selected the option “Install Ubuntu alongside Windows.” The installer automatically created the required partitions and configured GRUB. After installation was complete, I restarted the system and saw the GRUB menu showing both Windows and Ubuntu. That confirmed my dual boot setup was successful.
 
-Example:
-$ ls -l
+Key Observations
 
--rw-r--r-- 1 user user 0 Feb 14 10:30 file.txt
+Managing disk partitions carefully is very important.
 
-This means:
-Owner can read/write.
-Group can read.
-Others can read.
+Taking a backup before installation is necessary.
 
----
+The Ubuntu installer automatically sets up GRUB.
 
-## 🔹 Challenges Faced
-- Initially confused about partitions.
-- Had to disable Secure Boot.
-- Needed internet to update packages.
+Secure Boot sometimes needs to be disabled in BIOS.
 
----
+🔹 What I Learned About Linux Commands
 
-## 🔹 Conclusion
-This exercise helped me understand:
-- Linux installation process
-- Terminal navigation
-- File and directory management
-- Basic system commands
+Linux mainly works through the terminal, and I realized it is very powerful. Commands are case-sensitive, so typing must be accurate.
 
-I now feel comfortable using basic Linux commands in the terminal.
+Some basic commands I practiced:
+
+pwd → shows my current working directory.
+
+ls → lists files and folders.
+
+ls -l → shows detailed file information and permissions.
+
+cd → changes directory.
+
+mkdir → creates a new folder.
+
+🔹 Challenges I Faced
+
+During installation, I was initially confused about disk partitions and was worried about deleting Windows accidentally. I also had to disable Secure Boot from BIOS settings to make the installation work properly. After installation, I needed an internet connection to update packages and install additional software.
+
+Some commands were difficult to remember at first, but after practicing multiple times, I became more comfortable using them.
+
+🔹 Conclusion
+
+This practical exercise helped me understand:
+
+The complete Linux installation process
+
+How dual boot works with GRUB
+
+Basic terminal navigation
+
+File and directory management
+
+Understanding file permissions
+
+Now I feel confident using basic Linux commands in the terminal and working in a dual boot environment.
+
+touch → creates a file.
+
+sudo → runs commands with administrative privileges.
